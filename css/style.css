@@ -1,0 +1,484 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a, p, span, label, input, li {
+    font: 1em Arial, Verdana, Helvetica, sans-serif;
+}
+
+/* Начало документа index.html */
+
+body {
+}
+
+div#wrap {
+    margin: 0 auto;
+    width: auto;
+    max-width: 100%;
+    padding-bottom: -50px;
+}
+
+div#wrap header {
+    position: fixed;
+    margin: -60px auto 0;
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    background: #a8312d;
+    box-shadow: 0 0 10px black;
+}
+
+div#wrap header .h-content {
+    max-width: 1280px;
+    width: auto;
+    margin: 0 auto;
+}
+
+div#wrap header img.header-logo-img {
+    float: left;
+    margin: 5px;
+    width: 50px;
+    height: auto;
+}
+
+div#wrap header a.header-logo-text {
+    margin: 18px;
+    float: left;
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 1.25em;
+}
+
+div#wrap header a.header-logo-text:hover {
+    text-decoration: underline;
+}
+
+div#wrap header nav {
+    display: inline-block;
+    float: right;
+    margin: 10px;
+}
+
+div#wrap header nav ul.menu {
+    clear: both;
+}
+
+div#wrap header nav ul.menu input {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
+
+div#wrap header nav ul.menu input:hover {
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    width: 100%;
+    max-width: 1920px;
+}
+
+div#slide {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    margin: 60px 0 0 ;
+    background: #fff;
+}
+
+div#slide .slide-content {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+div#slide .slide-content-promo, .slide-content-info {
+    display: block;
+}
+
+div#slide .slide-content-promo {
+    float: left;
+    margin: 50px 0 0 50px;
+}
+
+div#slide img.sc-promo-img {
+}
+
+div#slide .slide-content-info {
+    margin: 50px 50px 0 0;
+    float: right;
+    width: 500px;
+    height: auto;
+    background: #f2f2f2 content-box;
+    border-radius: 15px;
+    border: 50px double rgba(245,245,245, 1);
+}
+
+div#slide span.sc-info-text {
+    color: #a8312d;
+    font-size: 1.7em;
+    text-align: center;
+    margin: 5px auto;
+    font-weight: bold;
+}
+
+div#slide span.sc-info-capt {
+    color: #a8312d;
+    font-size: 1em;
+    text-align: center;
+    margin: 5px auto;
+}
+
+div#slide form.sc-info-form {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+}
+
+div#slide form.sc-info-form input.sc-info-form-tinput {
+    margin: 5px auto;
+    width: 90%;
+    padding: 0 5%;
+    height: 35px;
+    border: 2px solid #a8312d;
+    border-radius: 10px;
+}
+
+div#slide form.sc-info-form input.sc-info-form-binput {
+    margin: 5px auto;
+    width: 70%;
+    height: 35px;
+    border: 2px solid #a8312d;
+    border-radius: 10px;
+    color: white;
+    background: #a8312d;
+}
+
+div#slide form.sc-info-form input.sc-info-form-binput:hover {
+    border: 2px solid #a8312d;
+    color: #a8312d;
+    background: white;
+    cursor: pointer;
+}
+
+div#services {
+    max-width: 1200px;
+    display: block;
+    border-radius: 10px;
+    background: #a8312d;
+    margin: auto;
+    padding: 25px;
+}
+
+div#services .services-left {
+    display: inline-block;
+    background: white;
+    border-radius: 10px;
+    width: 25%;
+    padding: 25px;
+}
+
+div#services .services-left ul.services-left-ul li a{
+    display: block;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background:  #a8312d;
+    text-decoration: none;
+    margin: 10px 0;
+    border: 2px solid white;
+}
+
+div#services .services-left ul.services-left-ul li a:hover {
+    color: #a8312d;
+    background: white;
+    font-weight: bold;
+    border: 2px solid #a8312d;
+}
+
+div#services .services-right {
+    display: inline-block;
+    right: 0;
+    float: right;
+    background: white;
+    border-radius: 10px;
+    width: 65%;
+    padding: 25px;  
+}
+
+div#services .services-right p.services-right-h1 {
+    font: bold 1.75em Arial, Verdana, sans-serif;
+    color: #a8312d;
+    text-align: center;
+    line-height: 0.75;
+}
+
+div#services .services-right p.services-right-p {
+    font: bold 1em Arial, Verdana, sans-serif;
+    color: #a8312d;
+    text-align: center;
+    line-height: 0.5;
+}
+
+div#services .services-right p.services-right-text {
+    font: 1em Arial, Verdana, sans-serif;
+    color: #444;
+    line-height: 1.5;
+}
+
+div#services .services-right ul li {
+    font: 0.9em Arial, Verdana, sans-serif;
+    color: #444;
+    line-height: 1.5;
+}
+
+div#services .services-right p.services-right-info {
+    font: bold 1.2em Arial, Verdana, sans-serif;
+    color: #a8312d;
+    text-align: center;
+    line-height: 1.5;
+}
+
+div#services .services-right p.services-right-dop {
+    font: 0.7em Arial, Verdana, sans-serif;
+    color: #444;
+    margin-top: 10px;
+    line-height: 1;
+}
+
+div#hardware {
+    width: 1280px;
+    margin: 50px auto;
+}
+
+div#hardware h1 {
+    font: bold 2em Arial, Verdana, sans-serif;
+    color: #a8312d;
+    text-align: center;
+    margin: 10px auto;
+}
+
+div#hardware div.hardware-components {
+    width: 90%;
+    padding: 15px;
+    display: inline-block;
+    margin: auto;
+}
+
+div#hardware div.hardware-components div.hw-comp-text {
+    margin-left: 100px;
+    float: right;
+    display: inline-block;
+    width: 42%;
+    background: #fafafa;
+    border: 45px solid #fafafa;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div#vk-block {
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+
+section hr.vk-block {
+    width: 960px;
+    margin: 40px auto ;
+    color: #ccc;
+}
+
+footer {
+    width: 100%;
+    padding-bottom: -50px;
+}
+
+footer .map {
+    z-index: 1;
+    position: relative;
+}
+
+footer p.copy {
+    text-align: center;
+   position: relative;
+    top: 490px;
+    left: 10px;
+    display: inline-block;
+    z-index: 50;
+    padding: 3px;
+    background: white;
+    width: auto;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid #a8312d;
+    font: 0.7em Arial;
+}
+
+footer p.contacts {
+      text-align: center;
+   position: relative;
+    float: right;
+    top: 100px;
+    right: 100px;
+    display: inline-block;
+    z-index: 50;
+    padding: 10px;
+    background: rgba(255,255,255,0.9);
+    width: auto;
+    width: 500px;
+    border-radius: 5px;
+    border: 2px solid #a8312d;
+}
+
+footer p.contacts span.cont-name-h1 {
+    font: bold 2em Arial, Verdana, sans-serif;
+    color: #a8312d;
+}
+
+footer p.contacts span.cont-name-h2 {
+    font: 0.85em Arial, Verdana, sans-serif;
+    color: #a8312d;
+}
+
+footer p.contacts span.cont-name-p {
+    line-height: 2;
+    font-size: 1em;
+    color: #444;
+}
+
+footer p.gw a {
+    text-decoration: none;
+    color: #a8312d;
+    font-weight: bold;
+}
+
+footer p.gw a:hover {
+    text-decoration: underline;
+}
+
+/* Документ services.html */
+
+div#service-item {
+    max-width: 1200px;
+    display: block;
+    border-radius: 10px;
+    background: #eee;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+div#service-item h1.service-h1 {
+    text-align: center;
+    font: bold 1.5em Arial, Verdana, sans-serif;
+    color: #a8312d;
+    margin-bottom: 10px;
+}
+
+div#service-item p.service-row {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+    background: #a8312d;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+div#service-item p.service-row span {
+    display: inline-block; 
+    padding: 10px 25px;
+    background: white;
+    border-radius: 5px;
+}
+
+div#service-item p.service-row span:hover {
+    background: #ddd;
+}
+
+div#service-item p.service-row span.service-row-center {
+    margin: 0 5px;
+    width: 12%;
+    text-align: center;
+}
+
+div#service-item p.service-row span.service-row-left {
+    width: 55%;
+    text-align: center;
+}
+
+div#service-item p.service-row span.service-row-right {
+    width: 19.6%;
+    text-align: center;
+}
+
+a#side-menu {
+    position: fixed;
+    top: 250px;
+    left: -83px;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    display: block;
+    background: #a8312d;
+    font: 1.5em Arial, Verdana, sans-serif;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    border: solid 2px #a8312d;
+    z-index: 999;
+}
+
+a#side-menu:hover {
+    background: white;
+    color: #a8312d;
+}
